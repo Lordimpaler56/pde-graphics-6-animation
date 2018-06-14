@@ -21,6 +21,13 @@ background(500,500);
 
 ellipseMode(CENTER);
 ellipse(x, y, 50, 50);
+x = x + delta;
 
+if (x == width-100) {
+  delta = -10;
+  }
+if (x == width 100) {
+  delta = 10;
+}
 
 }
