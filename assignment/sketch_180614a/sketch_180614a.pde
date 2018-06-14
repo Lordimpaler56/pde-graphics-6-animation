@@ -18,4 +18,9 @@ size(500,500);
 void draw() {
 background(500,500);
 
+
+ellipseMode(CENTER);
+ellipse(x, y, 50, 50);
+
+
 }
