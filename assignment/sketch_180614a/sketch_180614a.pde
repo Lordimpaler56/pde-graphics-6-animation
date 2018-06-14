@@ -12,7 +12,7 @@
 
  
 void setup() {
-size(500,500);
+size(500,220);
 }
 
 void draw() {
@@ -23,11 +23,12 @@ ellipseMode(CENTER);
 ellipse(x, y, 50, 50);
 x = x + delta;
 
-if (x == width-100) {
-  delta = -10;
+
+if (x == width-15) {
+  delta = -5;
   }
-if (x == width 100) {
-  delta = 10;
+if (x == +15) {
+  delta = 5;
 }
 
 }
