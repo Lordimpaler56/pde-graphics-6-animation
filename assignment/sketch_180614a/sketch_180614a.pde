@@ -6,6 +6,10 @@
  * 
  */
  
+ int x = 100;
+ int y = 100;
+ int delta = 5;
+
  
 void setup() {
 size(500,500);
